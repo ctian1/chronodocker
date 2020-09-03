@@ -10,6 +10,8 @@ With the default FFMPEG parameters, the clips must be encoded exactly the same w
 
 First, set up this repository as an ECS task in AWS
 
+Then, run the task from python:
+
 ```python
 import boto3, json
 
